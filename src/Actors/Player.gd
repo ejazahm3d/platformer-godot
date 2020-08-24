@@ -42,4 +42,6 @@ func calculate_stomp_velocity(linear_velocity: Vector2, impulse: float ):
 	return out
 
 
-
+func die() -> void:
+	PlayerData.deaths += 1
+	
